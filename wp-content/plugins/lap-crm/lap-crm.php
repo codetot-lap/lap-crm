@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'LAP_CRM_VERSION', '0.0.1' );
 define( 'LAP_CRM_DIR', plugin_dir_path(__FILE__) );
 define( 'LAP_CRM_URI', plugin_dir_url(__FILE__) );
-define( 'LAP_DB_VERSION_TABLE_NAME', 'npn_data_db_version' );
+define( 'LAP_CRM_VERSION_DATA_NAME', 'lap_crm_db_version' );
 define( 'LAP_CRM_DB_VERSION', '100' );
 
 require LAP_CRM_DIR . 'inc/plugin-init.php';
